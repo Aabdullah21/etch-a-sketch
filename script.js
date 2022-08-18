@@ -2,6 +2,9 @@
 const color = document.querySelector('.pick-color');
 color.addEventListener('input', () => { changeColor(color.value) });
 
+const sizeButton = document.querySelector('.size');
+sizeButton.addEventListener('click', changeSize);
+
 function createGrid(size = 16) {
 
     for (let i = 0; i < size ** 2; i++) {
