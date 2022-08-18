@@ -40,3 +40,22 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.color-change {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+input {
+    background: none;
+    width: 90px;
+    height: 40px;
+
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
