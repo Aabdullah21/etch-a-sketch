@@ -1,3 +1,4 @@
+createGrid();
 
 const color = document.querySelector('.pick-color');
 color.addEventListener('input', () => { changeColor(color.value) });
