@@ -33,3 +33,8 @@ function generateRandomColor() {
 
     return color;
 }
+
+function changeColorToRandom() {
+    const boxes = document.querySelectorAll('.small-box');
+    boxes.forEach((box) => box.addEventListener('mouseover', () => box.style.backgroundColor = generateRandomColor()));
+}
