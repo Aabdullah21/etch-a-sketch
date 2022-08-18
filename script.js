@@ -38,3 +38,12 @@ function changeColorToRandom() {
     const boxes = document.querySelectorAll('.small-box');
     boxes.forEach((box) => box.addEventListener('mouseover', () => box.style.backgroundColor = generateRandomColor()));
 }
+
+function changeSize() {
+    let size = Number.parseInt(prompt('Enter the size of the grid'));
+    while (size <= 0 || size > 100 || !size) {
+        size = Number.parseInt(prompt('Enter the size of the grid'));
+    }
+    removeChildren();
+    createGrid(size);
+}
