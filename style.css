@@ -32,3 +32,11 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+button {
+    background-color: #3ea6ff;
+    padding: 16px 32px;
+    color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+}
