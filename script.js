@@ -16,3 +16,9 @@ function createGrid(size = 16) {
     }
 
 }
+
+function removeChildren() {
+    const grid = document.querySelector('.grid');
+    const boxes = document.querySelectorAll('.small-box');
+    boxes.forEach((box) => grid.removeChild(box));
+}
