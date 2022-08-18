@@ -17,3 +17,11 @@ body {
     width: 900px;
     justify-content: space-between;
 }
+
+.grid {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
