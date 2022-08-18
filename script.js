@@ -5,6 +5,9 @@ color.addEventListener('input', () => { changeColor(color.value) });
 const sizeButton = document.querySelector('.size');
 sizeButton.addEventListener('click', changeSize);
 
+const randomColorsButton = document.querySelector('.random');
+randomColorsButton.addEventListener('click', changeColorToRandom);
+
 function createGrid(size = 16) {
 
     for (let i = 0; i < size ** 2; i++) {
