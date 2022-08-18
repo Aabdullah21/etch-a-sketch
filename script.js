@@ -47,3 +47,8 @@ function changeSize() {
     removeChildren();
     createGrid(size);
 }
+
+function changeColor(color) {
+    const boxes = document.querySelectorAll('.small-box');
+    boxes.forEach((box) => box.addEventListener('mouseover', () => box.style.backgroundColor = color));
+}
