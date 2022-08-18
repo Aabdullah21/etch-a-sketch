@@ -25,3 +25,10 @@ body {
     flex-wrap: wrap;
     background-color: white;
 }
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
